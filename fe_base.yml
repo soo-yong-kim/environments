@@ -3,7 +3,9 @@ channels:
   - conda-forge
 dependencies:
 # Python & Jupyter
-  - python=3.12
+  - python=3.13
+  - jupyterlab
+  - ipykernel
 # Numerics
   - numpy
   - pandas
@@ -15,6 +17,11 @@ dependencies:
   - seaborn
 # Data Sets
   - yfinance
+# Machine Learning
+  - scikit-learn
+  - xgboost
+  - pytorch
+  - torchvision
 # pip
   - pip
   - pip:
